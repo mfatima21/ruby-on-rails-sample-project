@@ -11,5 +11,7 @@ rails db:create
 
 rails db:migrate
 
-rails start
+rails start - to start the server
+
+rails test:models - to run model test   
 * ...

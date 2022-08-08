@@ -2,7 +2,7 @@ require "test_helper"
 
 class UserTest < ActiveSupport::TestCase
   test "user creation" do
-    @user = User.new()
+    @user = User.new({name: "test user"})
     assert_not @user.save
 
     @user.name = "test user"
